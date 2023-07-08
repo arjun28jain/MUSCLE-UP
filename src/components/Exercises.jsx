@@ -24,7 +24,6 @@ const HeroBanner = () => {
   <Typography>
     checkout our following bloodoozing Exercises...
   </Typography>
-
   
 </Box>
   )

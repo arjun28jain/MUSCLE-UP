@@ -19,7 +19,7 @@ const HeroBanner = () => {
         
       Musculus
       <hr color='red'/>
-
+                                   
        </Typography>
        
        <Stack direction='row' gap={2}>
@@ -27,7 +27,7 @@ const HeroBanner = () => {
       <CardMedia sx={{ height: 180 }} image="https://media.istockphoto.com/id/1132086660/photo/side-view-of-beautiful-muscular-woman-running-on-treadmill.jpg?b=1&s=170667a&w=0&k=20&c=qSje_x0VFmlmQhQMOMBl3ck2gP0OWm-AJNlOMm-nDNg=" title="Cardio"/>
       <CardContent >
         <Typography gutterBottom variant="h4" component="div" sx={{textDecoration:'none'}}>
-         <Link to='/Cardio'> Cardio </Link>
+         <Link to='/Cardio'> <p className='link'> Cardio </p> </Link>
         </Typography>
         <Typography variant="body2" color="text.secondary">
         Cardio exercise, which is sometimes referred to as aerobic exercise, is any rhythmic activity that raises your heart rate into your target heart rate zone. 
@@ -61,10 +61,10 @@ const HeroBanner = () => {
         <Typography variant="body2" color="text.secondary">
         Cardio exercise, which is sometimes referred to as aerobic exercise, is any rhythmic activity that raises your heart rate into your target heart rate zone. 
         </Typography>
+        
       </CardContent>
       </Card>
-
-     
+    
     </Stack>
     </Stack>
      </Box>

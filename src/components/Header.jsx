@@ -6,7 +6,7 @@ import { Box,Stack, Typography, Button } from '@mui/material';
 const Header = () => {
   return (
       <Box>
-     <Stack direction='row' justifyContent='none' margin={0} p={2} gap={4} sx={{backgroundImage:'linear-gradient(180deg, grey,white )'}}>
+     <Stack direction='row' justifyContent='none' margin={0} p={2} gap={4} sx={{backgroundImage:'https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1193&q=80'}}>
 
       <img src='https://cdn-icons-png.flaticon.com/128/7159/7159869.png' width={120} height={100} margin={1}/>
      

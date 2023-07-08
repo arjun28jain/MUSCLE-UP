@@ -1,6 +1,6 @@
 import React from 'react'
 import Box from '@mui/material/Box';
-import { Typography } from '@mui/material';
+import {Typography } from '@mui/material';
 import Header from '../components/Header';
 import HeroBanner from '../components/HeroBanner'
 import Cardio from '../components/Cardio';
@@ -15,14 +15,7 @@ const Home = () => {
     <Header/> 
     <HeroBanner/>
     
-    
-    
-    
-
-
     </Box>
-
-
 
    )
 }
